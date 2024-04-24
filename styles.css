@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color: #fafafa;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    max-width: 800px;
+    background-color: gray;
+    margin: auto;
+    height: 100%;
+}
+
+.display-flex{
+    display: flex;
+}
+
+
+
+
+.sidemenu{
+   
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.user-profile{
+    gap: 10px;
+    margin-top: auto;
+}
+
+.avatar{
+    background-color: #BADA55;
+    border-radius: 100%;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.username{
+    color: #bada55;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+
+}
+
+.feed{
+    
+    display: flex;
+    flex: 2;
+}
+
+.topics{
+   
+    display: flex;
+    flex: 1;
+}
